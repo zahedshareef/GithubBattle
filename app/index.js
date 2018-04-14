@@ -1,10 +1,11 @@
-const React = require('react')
-const ReactDOM = require('react-dom')
-const App = require('./components/App')
+const React = require('react');
+const ReactDOM = require('react-dom');
+const App = require('./components/App');
 
-require('./index.css')
+require('./index.css');
 
 ReactDOM.render(
-    <App />,
-    document.getElementById('app')
-)
+  <App />,
+  document.getElementById('app'),
+);
+

@@ -1,0 +1,67 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add --dev eslint-config-airbnb-base eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11
+
+PATH: 
+  C:\Python27\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Users\realz\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\realz\AppData\Roaming\npm;C:\Users\realz\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.10.1
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "github-battle",
+    "version": "1.0.0",
+    "description": "Battle Github Users",
+    "main": "index.js",
+    "scripts": {
+      "start": "webpack-dev-server"
+    },
+    "babel": {
+      "presets": [
+        "env",
+        "react"
+      ]
+    },
+    "author": "Zahed",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^0.16.2",
+      "prop-types": "^15.5.10",
+      "react": "^15.6.1",
+      "react-dom": "^15.6.1",
+      "react-router-dom": "^4.2.2"
+    },
+    "devDependencies": {
+      "babel-core": "^6.26.0",
+      "babel-loader": "^7.1.2",
+      "babel-preset-env": "^1.6.0",
+      "babel-preset-react": "^6.24.1",
+      "css-loader": "^0.28.7",
+      "html-webpack-plugin": "^2.30.1",
+      "style-loader": "^0.18.2",
+      "webpack": "^3.5.6",
+      "webpack-dev-server": "^2.7.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find package "eslint-plugin-jsx-a11" on the "npm" registry.
+      at new MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at NpmResolver.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:51625:15)
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:98:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:109:13
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:118:7)
