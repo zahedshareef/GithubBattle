@@ -2,11 +2,9 @@ language: node_js
 
 node_js:
   - 9
-  - 8
 
 script:
-  - node ./internals/scripts/generate-templates-for-linting
-  - npm test -- --maxWorkers=4
+  - npm install
   - npm run build
 
 before_install:
@@ -21,6 +19,5 @@ notifications:
 after_success: 'npm run coveralls'
 
 cache:
-  yarn: false
   directories:
     - node_modules
