@@ -16,7 +16,7 @@
   "author": "Zahed",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.21.2",
     "eslint-plugin-prettier": "^2.6.2",
     "prop-types": "^15.6.2",
     "react": "^15.6.2",
